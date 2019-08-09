@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ACEECA"
+    >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your message:"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/text_box"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter your message"
+        />
+    <Button
+        android:id="@+id/display_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
